@@ -1,0 +1,8 @@
+*.class
+build/
+out/
+log/
+gradle/
+temp/
+.idea/
+.gradle/
