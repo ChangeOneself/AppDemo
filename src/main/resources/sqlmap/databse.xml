@@ -5,7 +5,21 @@
         create database if not exists `${databaseName}`;
     </update>
 
+<update id="createTable" parameterType="java.lang.String">
+        create table ${schemaName}.${tableName}  (
+            id varchar(6000),
+            name varchar(6000)
+        )
+</update>
+
 <select id="selectOne" resultType="java.lang.String">
         select id from one;
     </select>
+
+    <update id="createAppTable">
+        create table if not exists appdb_table  (
+            id varchar(6000),
+            name varchar(6000)
+        )
+</update>
 </mapper>

@@ -39,8 +39,11 @@ public class AppController {
     public String createDatabase(@RequestBody DatabaseBean databaseBean)
     {
 //        appMapper.creatDatabase(databaseBean.getDatabaseName());
-        LOGGER.info("create database success.basename is {}",databaseBean.getDatabaseName());
-        LOGGER.info("select id from one. value is {}",appMapper.selectOne());
+//        appMapper.createTable("app","rrrr111");
+
+        appMapper.createAppTable();
+//        LOGGER.info("create database success.basename is {}",databaseBean.getDatabaseName());
+//        LOGGER.info("select id from one. value is {}",appMapper.selectOne());
         return "SUCCESS";
     }
 
@@ -48,7 +51,7 @@ public class AppController {
     public WebResponse getCsv(){
 
         try {
-            csvManager.excute();
+            csvManager.execute();
             webResponse.setResultCode(ResponseCode.SUCCESS);
             webResponse.setResultUri("");
             webResponse.setDescription("20000");

@@ -8,12 +8,13 @@ import org.springframework.stereotype.Service;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Service
 public class CsvManager {
-    private Logger LOG = LoggerFactory.getLogger(this.getClass());
-    public void excute() throws IOException {
+    private static final Logger LOG = LoggerFactory.getLogger(CsvManager.class);
+    public void execute() throws IOException {
         File csvFile = new File("test.csv");
         CSVWriter csvWriter = new CSVWriter(new FileWriter(csvFile));
         List<String[]> csvRows = new ArrayList<>();
@@ -27,7 +28,7 @@ public class CsvManager {
         csvWriter.close();
         CSVReader csvReader = new CSVReader(new FileReader(csvFile));
         String[] title = csvReader.readNext();
-        LOG.info("title is {}",title.toString());
+        LOG.info("title is {}", Arrays.toString(title));
         for (String col:title){
             LOG.info(col);
         }
