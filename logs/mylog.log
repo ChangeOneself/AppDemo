@@ -1,0 +1,7 @@
+22:05:15.095 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:758) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m42s134ms926µs236ns).
+22:05:15.095 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:758) - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h7m12s39ms922µs906ns).
+22:05:15.130 [Thread-8] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+22:05:15.133 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:381) - HikariPool-2 - Shutdown initiated...
+22:05:15.144 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:383) - HikariPool-2 - Shutdown completed.
+22:05:15.145 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:381) - HikariPool-1 - Shutdown initiated...
+22:05:15.148 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:383) - HikariPool-1 - Shutdown completed.

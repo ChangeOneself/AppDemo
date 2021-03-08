@@ -1,0 +1,2 @@
+20:28:21.735 [http-nio-8080-exec-2] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+20:28:21.741 [http-nio-8080-exec-2] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123

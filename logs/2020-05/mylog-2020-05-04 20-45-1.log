@@ -1,0 +1,24 @@
+20:45:35.071 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting ApplicationRun on DESKTOP-7T9MRQN with PID 20000 (D:\JavaWorkeSpace\appDome\build\classes\java\main started by nb in D:\JavaWorkeSpace\appDome)
+20:45:35.084 [restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+20:45:35.114 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:45:35.114 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:45:35.429 [restartedMain] WARN  org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[app.mapper.AppMapper]' package. Please check your configuration.
+20:45:35.896 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+20:45:35.907 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+20:45:35.916 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+20:45:35.917 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.19]
+20:45:36.016 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+20:45:36.016 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 900 ms
+20:45:36.441 [restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+20:45:36.566 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+20:45:36.582 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+20:45:36.601 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+20:45:36.603 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started ApplicationRun in 1.77 seconds (JVM running for 2.535)
+20:45:42.105 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:45:42.105 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+20:45:42.111 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 5 ms
+20:45:42.133 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+20:45:42.351 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+20:45:42.379 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:39) - selectOne result is 123
+20:45:42.385 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is Test0504
+20:45:42.386 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:44) - select id from one. value is 123

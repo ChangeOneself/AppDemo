@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@MapperScan("app.mapper.AppMapper")
+//@MapperScan("app.mapper.*")
 @RestController
 public class ApplicationRun {
     private static final Logger LOGGER = LoggerFactory.getLogger(ApplicationRun.class);

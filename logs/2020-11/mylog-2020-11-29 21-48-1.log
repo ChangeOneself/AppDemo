@@ -1,0 +1,7 @@
+21:48:15.767 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+21:48:16.366 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+21:48:18.317 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+21:48:18.502 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123
+21:48:52.031 [Thread-8] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+21:48:52.031 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:381) - HikariPool-1 - Shutdown initiated...
+21:48:52.256 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:383) - HikariPool-1 - Shutdown completed.

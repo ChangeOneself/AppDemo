@@ -1,0 +1,3 @@
+21:51:07.894 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:51:07.895 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+21:51:07.912 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 17 ms

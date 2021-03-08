@@ -1,0 +1,16 @@
+22:42:30.355 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting ApplicationRun on DESKTOP-7T9MRQN with PID 5464 (D:\JavaWorkeSpace\appDome\build\classes\java\main started by nb in D:\JavaWorkeSpace\appDome)
+22:42:30.367 [restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+22:42:30.401 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:42:30.401 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:42:30.854 [restartedMain] WARN  org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[app.mapper.AppMapper]' package. Please check your configuration.
+22:42:31.417 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+22:42:31.430 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+22:42:31.440 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+22:42:31.440 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.19]
+22:42:31.540 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+22:42:31.540 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1139 ms
+22:42:32.093 [restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+22:42:32.237 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+22:42:32.259 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+22:42:32.283 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+22:42:32.286 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started ApplicationRun in 2.218 seconds (JVM running for 3.668)

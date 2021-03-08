@@ -1,0 +1,8 @@
+22:13:20.545 [http-nio-8080-exec-4] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+22:13:20.548 [http-nio-8080-exec-4] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123
+22:13:31.940 [http-nio-8080-exec-5] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+22:13:31.942 [http-nio-8080-exec-5] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123
+22:13:38.177 [http-nio-8080-exec-6] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+22:13:38.180 [http-nio-8080-exec-6] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123
+22:13:57.501 [http-nio-8080-exec-7] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+22:13:57.505 [http-nio-8080-exec-7] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123

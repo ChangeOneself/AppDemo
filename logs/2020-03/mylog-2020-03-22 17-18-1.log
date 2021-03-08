@@ -1,0 +1,123 @@
+17:18:08.417 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting ApplicationRun on DESKTOP-7T9MRQN with PID 5240 (D:\JavaWorkeSpace\appDome\build\classes\java\main started by nb in D:\JavaWorkeSpace\appDome)
+17:18:08.431 [restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+17:18:08.462 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:18:08.463 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:18:08.873 [restartedMain] WARN  org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[app.mapper.AppMapper]' package. Please check your configuration.
+17:18:09.639 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+17:18:09.650 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+17:18:09.659 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+17:18:09.660 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:18:09.756 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+17:18:09.756 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1293 ms
+17:18:10.189 [restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+17:18:10.321 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+17:18:10.340 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+17:18:10.371 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+17:18:10.373 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started ApplicationRun in 2.211 seconds (JVM running for 3.079)
+17:18:21.598 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:18:21.598 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+17:18:21.602 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 4 ms
+17:18:21.624 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:30) - title is [Ljava.lang.String;@265cc0de
+17:18:21.625 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:32) - ONE
+17:18:21.625 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:32) - TWO
+17:18:21.625 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:32) - THREE
+17:18:21.626 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.626 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.627 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.628 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.628 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.628 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.628 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.628 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.628 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.629 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.630 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.631 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.632 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.632 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.632 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.632 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.632 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.632 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.633 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.634 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.635 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.635 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.635 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.635 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.635 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.636 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.636 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.636 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.636 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.636 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.636 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.637 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.637 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.637 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.637 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.637 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.638 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.638 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.638 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.638 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.638 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.639 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.640 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.640 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.640 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.640 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.640 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.640 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.641 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.641 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.641 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789
+17:18:21.641 [http-nio-8080-exec-1] INFO  app.manager.csv.CsvManager.excute(CsvManager.java:39) - col is 123456789

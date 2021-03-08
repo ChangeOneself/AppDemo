@@ -1,0 +1,51 @@
+19:51:08.066 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting ApplicationRun on jiang-PC with PID 30346 (/home/jiang/javaWorkspace/appDome/build/classes/java/main started by jiang in /home/jiang/javaWorkspace/appDome)
+19:51:08.073 [restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+19:51:08.104 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:51:08.104 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:51:08.422 [restartedMain] WARN  org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[app.mapper.AppMapper]' package. Please check your configuration.
+19:51:08.503 [restartedMain] WARN  org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[app]' package. Please check your configuration.
+19:51:08.903 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+19:51:08.915 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+19:51:08.923 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+19:51:08.924 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.19]
+19:51:08.978 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+19:51:08.978 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 874 ms
+19:51:09.039 [restartedMain] WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appController': Unsatisfied dependency expressed through field 'appMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'app.mapper.AppMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+19:51:09.042 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+19:51:09.059 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:142) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19:51:09.166 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field appMapper in app.controller.AppController required a bean of type 'app.mapper.AppMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'app.mapper.AppMapper' in your configuration.
+
+19:51:49.465 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting ApplicationRun on jiang-PC with PID 30688 (/home/jiang/javaWorkspace/appDome/build/classes/java/main started by jiang in /home/jiang/javaWorkspace/appDome)
+19:51:49.469 [restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+19:51:49.515 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:51:49.516 [restartedMain] INFO  org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:51:49.870 [restartedMain] WARN  org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[app.mapper.AppMapper]' package. Please check your configuration.
+19:51:50.304 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+19:51:50.314 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+19:51:50.323 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+19:51:50.323 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.19]
+19:51:50.376 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+19:51:50.376 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 859 ms
+19:51:50.825 [restartedMain] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+19:51:50.944 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+19:51:50.973 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+19:51:50.985 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+19:51:50.987 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started ApplicationRun in 1.763 seconds (JVM running for 2.354)

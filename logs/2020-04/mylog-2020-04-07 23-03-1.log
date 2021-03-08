@@ -1,0 +1,3 @@
+23:03:18.784 [Thread-8] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+23:03:18.788 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:381) - HikariPool-1 - Shutdown initiated...
+23:03:18.802 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:383) - HikariPool-1 - Shutdown completed.

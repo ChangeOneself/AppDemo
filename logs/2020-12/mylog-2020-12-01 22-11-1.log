@@ -1,0 +1,4 @@
+22:11:48.162 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:42) - create database success.basename is null
+22:11:49.316 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+22:11:51.317 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+22:11:51.511 [http-nio-8080-exec-1] INFO  app.controller.AppController.createDatabase(AppController.java:43) - select id from one. value is 123

@@ -6,7 +6,8 @@ import app.bean.WebResponse;
 import app.controller.bean.DatabaseBean;
 import app.manager.csv.CsvManager;
 import app.manager.csv.CsvMergeManager;
-import app.mapper.AppMapper;
+import app.mapper.MySqlMapper;
+import app.pgmapper.PgSqlMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
-import java.util.Random;
 
 @RestController
 @RequestMapping("/app")
@@ -27,7 +27,10 @@ public class AppController {
     private WebResponse webResponse;
 
     @Autowired
-    private AppMapper appMapper;
+    private MySqlMapper mySqlMapper;
+
+    @Autowired
+    private PgSqlMapper pgSqlMapper;
 
     @Autowired
     private CsvManager csvManager;
@@ -38,12 +41,13 @@ public class AppController {
     @RequestMapping("/create")
     public String createDatabase(@RequestBody DatabaseBean databaseBean)
     {
-//        appMapper.creatDatabase(databaseBean.getDatabaseName());
-//        appMapper.createTable("app","rrrr111");
-
-        appMapper.createAppTable();
-//        LOGGER.info("create database success.basename is {}",databaseBean.getDatabaseName());
-//        LOGGER.info("select id from one. value is {}",appMapper.selectOne());
+        mySqlMapper.createAppTable();
+        mySqlMapper.insertDataForPeople();
+        LOGGER.info("insert data success.");
+        mySqlMapper.updateDataForPeople();
+        LOGGER.info("update data success.");
+        pgSqlMapper.createTable("app","rrrr1112341242342");
+        LOGGER.info("create database success.basename is {}",databaseBean.getDatabaseName());
         return "SUCCESS";
     }
 
