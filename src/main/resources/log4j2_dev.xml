@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="DEBUG">
     <properties>
-        <property name="LOG_HOME">./logs</property>
+        <property name="LOG_HOME">${sys:user.dir}/logs</property>
         <property name="FILE_NAME">mylog</property>
         <property name="PATTERN_LAYOUT">[%X{ServiceName}][%X{TaskId}][%T][%d{yyyy-MM-dd HH:mm:ss.SSS}][%-5p][%c.%M.%F:%L] %msg%xEx%n</property>
     </properties>
@@ -12,7 +12,7 @@
             <PatternLayout pattern="${PATTERN_LAYOUT}" />
         </Console>
 
-        <RollingRandomAccessFile name="RollingRandomAccessFile" fileName="${LOG_HOME}/${FILE_NAME}.log" filePattern="${LOG_HOME}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd HH-mm}-%i.log">
+        <RollingRandomAccessFile name="runLogFile" fileName="${LOG_HOME}/${FILE_NAME}.log" filePattern="${LOG_HOME}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd-HH-mm}-%i.log.gz">
             <PatternLayout pattern="${PATTERN_LAYOUT}"/>
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1"/>
@@ -25,7 +25,7 @@
     <Loggers>
         <Root level="INFO">
             <AppenderRef ref="Console" />
-            <AppenderRef ref="RollingRandomAccessFile" />
+            <AppenderRef ref="runLogFile" />
         </Root>
 
         <Logger name="com.mengdee.dao" level="${log.sql.level}" additivity="false">
